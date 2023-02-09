@@ -4,6 +4,9 @@ Well this is a repo that I use for creating/reporting issues to clients during d
 It's just an compressed information used to find links and infos easier!<br>
 During creation of issues, we need to report CWE ID, References for Help, OWASP ID and more.<br>
 > __[!!!] THIS IS NOT ABSOLUTELY TRUE/CORRECT__, if you see that something is wrong, please point it for me!
+<br>
+<br>
+<br>
 
 <!-- We start the references here, divided by issue types -->
 
@@ -310,6 +313,24 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 
     - OWASP API Top 10:
         API1:Broken Object Level Authorization
+        
+</details>
+
+<details>
+  <summary>Privilege Escalation</summary>
+  
+    - Common Weakness Enumeration:
+        CWE-269: Improper Privilege Management
+
+    - References:
+        https://www.sans.org/security-awareness-training/vertical-horizontal-privilege-escalation
+        https://portswigger.net/web-security/access-control
+
+    - OWASP Web Top 10:
+        A01:Broken Access Control
+
+    - OWASP API Top 10:
+        API5:Broken Function Level Authorization
         
 </details>
 
