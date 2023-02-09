@@ -6,8 +6,6 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 > __[!!!] THIS IS NOT ABSOLUTELY TRUE/CORRECT__, if you see that something is wrong, please point it for me!
 <br>
 <br>
-<br>
-
 <!-- We start the references here, divided by issue types -->
 
 <details>
@@ -317,7 +315,7 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 </details>
 
 <details>
-  <summary>Privilege Escalation</summary>
+  <summary>Privilege Escalation (Horizontal/Vertical)</summary>
   
     - Common Weakness Enumeration:
         CWE-269: Improper Privilege Management
