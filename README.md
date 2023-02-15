@@ -332,4 +332,22 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
         
 </details>
 
+<details>
+  <summary>Brute Forcing</summary>
+  
+    - Common Weakness Enumeration:
+        CWE-307: Improper Restriction of Excessive Authentication Attempts
+
+    - References:
+        https://www.kaspersky.com/resource-center/definitions/brute-force-attack
+        https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks
+        https://sucuri.net/guides/what-is-brute-force-attack/
+
+    - OWASP Web Top 10:
+        A05:Security Misconfiguration
+
+    - OWASP API Top 10:
+        API7:Security Misconfiguration
+        
+</details>
 
