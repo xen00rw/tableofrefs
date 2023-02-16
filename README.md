@@ -351,3 +351,70 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
         
 </details>
 
+<details>
+  <summary>Unprotected Credentials</summary>
+  
+    - Common Weakness Enumeration:
+        CWE-522: Insufficiently Protected Credentials
+
+    - Desscription:
+        This case refers to situations where the credentials, keys or tokens are not well protected and encrypted.
+        It could lead to possible theft or compromise.
+        An example is a attacker get credentials by phishing, social engineering, or exploiting vulnerabilities, and use it to access company systems.
+        This usage of valid credentials, could lead to malicious actions, such as stealing data, altering data, or executing unauthorized commands.
+
+    - References:
+        N/A
+
+    - OWASP Web Top 10:
+        A05:Security Misconfiguration
+
+    - OWASP API Top 10:
+        API7:Security Misconfiguration
+        
+</details>
+
+<details>
+  <summary>Missing Authentication</summary>
+  
+    - Common Weakness Enumeration:
+        CWE-306: Missing Authentication for Critical Function
+
+    - Desscription:
+        The application does not have any authentication for access some functions.
+        It does not require any kind of access, leading to full anonymous access.   
+
+    - References:
+        https://auth0.com/docs/get-started/applications/confidential-and-public-applications
+
+    - OWASP Web Top 10:
+        A05:Security Misconfiguration
+
+    - OWASP API Top 10:
+        API7:Security Misconfiguration
+        
+</details>
+
+<details>
+  <summary>Exposure of Sensitive Information</summary>
+  
+    - Common Weakness Enumeration:
+        CWE-200: Exposure of Sensitive Information to an Unauthorized Actor
+
+    - Desscription:
+        The application does not handle sensitive information correctly, this could lead to exposure of credentials, tokens, and more.
+        This is an initial step for any attacker, called information gathering.
+
+    - References:
+        https://portswigger.net/web-security/information-disclosure
+        https://knowledge-base.secureflag.com/vulnerabilities/sensitive_information_exposure/sensitive_information_disclosure_vulnerability.html
+        https://www.invicti.com/blog/web-security/information-disclosure-issues-attacks/
+
+    - OWASP Web Top 10:
+        A05:Security Misconfiguration
+
+    - OWASP API Top 10:
+        API7:Security Misconfiguration
+        
+</details>
+
