@@ -146,6 +146,95 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 </details>
 
 <details>
+  <summary>GraphQL Alias Overloading Allowed: Potential Denial of Service Vulnerability</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-400: Uncontrolled Resource Consumption
+
+    - Description:
+    Your web application is running with GraphQL Alias Overloading enabled, allowing 100+ aliases in a single request.
+    GraphQL aliases allow clients to perform the same query multiple times in a single request by assigning a different name to each of them.
+
+    - References:
+    https://www.acunetix.com/vulnerabilities/web/graphql-alias-overloading-allowed-potential-denial-of-service-vulnerability/
+    https://graphql.org/learn/queries/#aliases
+    https://dev.to/ivandotv/preventing-graphql-batching-attacks-56o3
+
+    - OWASP Web Top 10:
+    A04:Insecure Design
+
+    - OWASP API Top 10 (2023):
+    API10:Unsafe Consumption of APIs
+        
+</details>
+
+<details>
+  <summary>GraphQL Array-based Query Batching Allowed: Potential Batching Attack Vulnerability</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-770: Allocation of Resources Without Limits or Throttling
+
+    - Description:
+    Your web application is running with GraphQL Array-based Query Batching enabled, allowing 10+ simultaneous queries in a single request.
+    GraphQL Query Batching is a feature that permits multiple queries to be sent to the server in a single request, reducing server processing overhead.
+
+    - References:
+    https://www.acunetix.com/vulnerabilities/web/graphql-array-based-query-batching-allowed-potential-batching-attack-vulnerability/
+    https://escape.tech/blog/graphql-batch-attacks-cause-dos/
+
+    - OWASP Web Top 10:
+    A04:Insecure Design
+
+    - OWASP API Top 10. (2023):
+    API10:Unsafe Consumption of APIs
+        
+</details>
+
+<details>
+  <summary>GraphQL Field Suggestions Enabled</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-200: Exposure of Sensitive Information to an Unauthorized Actor
+
+    - Description:
+    GraphQL Field Suggestions is a feature that provides clients with suggested field names when an invalid or non-existent field is queried.
+
+    - References:
+    https://www.acunetix.com/vulnerabilities/web/graphql-field-suggestions-enabled/
+    https://github.com/apollographql/apollo-server/issues/3919
+    https://portswigger.net/kb/issues/00200513_graphql-suggestions-enabled
+    https://www.tenable.com/plugins/was/112895
+
+    - OWASP Web Top 10:
+    A04:Insecure Design
+
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
+        
+</details>
+
+<details>
+  <summary>GraphQL Non-JSON Queries/Mutations over GET: Potential CSRF Vulnerability</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-352: Cross-Site Request Forgery (CSRF)
+
+    - Description:
+    Your web application's GraphQL implementation accepts non-JSON queries over GET requests, increasing the risk of Cross-Site Request Forgery (CSRF) attacks.
+
+    - References:
+    https://www.apollographql.com/docs/router/configuration/csrf/
+    https://www.acunetix.com/vulnerabilities/web/graphql-non-json-queries-over-get-potential-csrf-vulnerability/
+
+    - OWASP Web Top 10:
+    A05:Security Misconfiguration
+
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
+        
+</details>
+
+<details>
   <summary>Guessable/Weak Password Usage</summary>
   
     - Common Weakness Enumeration:
