@@ -181,6 +181,7 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - References:
     https://www.acunetix.com/vulnerabilities/web/graphql-array-based-query-batching-allowed-potential-batching-attack-vulnerability/
     https://escape.tech/blog/graphql-batch-attacks-cause-dos/
+    https://inigo.io/blog/defeating_controls_with_array-based_query_batching/
 
     - OWASP Web Top 10:
     A04:Insecure Design
@@ -224,7 +225,9 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 
     - References:
     https://www.apollographql.com/docs/router/configuration/csrf/
+    https://www.apollographql.com/docs/apollo-server/security/cors
     https://www.acunetix.com/vulnerabilities/web/graphql-non-json-queries-over-get-potential-csrf-vulnerability/
+    https://blog.doyensec.com/2021/05/20/graphql-csrf.html
 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
