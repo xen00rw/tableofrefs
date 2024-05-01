@@ -9,6 +9,42 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 <!-- We start the references here, divided by issue types -->
 
 <details>
+  <summary>2FA Susceptible to Brute Force</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-307: Improper Restriction of Excessive Authentication Attempts
+
+    - References:
+    https://www.infosecinstitute.com/resources/hacking/ethical-hacking-top-6-techniques-for-attacking-two-factor-authentication
+    https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks
+
+    - OWASP Web Top 10:
+    A05:Security Misconfiguration
+
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
+        
+</details>
+
+<details>
+  <summary>AWS Cognito Self Signup</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-285: Improper Authorization
+
+    - References:
+    https://shellmates.medium.com/amazon-cognito-misconfiguration-35dfde9e2037
+    https://hackingthe.cloud/aws/exploitation/cognito_user_self_signup/
+
+    - OWASP Web Top 10:
+    A05:Security Misconfiguration
+
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
+        
+</details>
+
+<details>
   <summary>Broken Access Control (BAC)</summary>
   
     - Common Weakness Enumeration:
@@ -22,8 +58,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A01:Broken Access Control
 
-    - OWASP API Top 10:
-    API5:Broken Function Level Authorization
+    - OWASP API Top 10 (2023):
+    API1:Broken Object Level Authorization
         
 </details>
 
@@ -41,13 +77,13 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
 <details>
-  <summary>Brute Forcing</summary>
+  <summary>Password Spraying/Brute Forcing</summary>
   
     - Common Weakness Enumeration:
     CWE-307: Improper Restriction of Excessive Authentication Attempts
@@ -60,8 +96,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -79,8 +115,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A04:Insecure Design
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -98,8 +134,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -117,8 +153,25 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
+        
+</details>
+
+<details>
+  <summary>Directory Listing - WordPress Files</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-548: Exposure of Information Through Directory Listing
+
+    - References:
+    https://www.wpbeginner.com/wp-tutorials/disable-directory-browsing-wordpress/
+
+    - OWASP Web Top 10:
+    A05:Security Misconfiguration
+
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -140,8 +193,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -238,7 +291,7 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
 </details>
 
 <details>
-  <summary>Guessable/Weak Password Usage</summary>
+  <summary>Guessable/Weak/Low complexity Password Usage</summary>
   
     - Common Weakness Enumeration:
     CWE-1391: Use of Weak Credentials
@@ -252,8 +305,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A04:Insecure Design
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -271,8 +324,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A03:Injection
 
-    - OWASP API Top 10:
-    API8:Injection
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -290,8 +343,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A07:Identification and Authentication Failures
 
-    - OWASP API Top 10:
-    API1:Broken Object Level Authorization
+    - OWASP API Top 10 (2023):
+    API3:Broken Object Property Level Authorization
         
 </details>
 
@@ -308,8 +361,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -326,8 +379,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -345,7 +398,7 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A01:Broken Access Control
 
-    - OWASP API Top 10:
+    - OWASP API Top 10 (2023):
     API1:Broken Object Level Authorization
         
 </details>
@@ -367,8 +420,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A04:Insecure Design
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -388,8 +441,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -408,8 +461,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -431,8 +484,26 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A01:Broken Access Control
 
-    - OWASP API Top 10:
-    API5:Broken Function Level Authorization
+    - OWASP API Top 10 (2023):
+    API1:Broken Object Level Authorization
+        
+</details>
+
+<details>
+  <summary>Publicly Available Swagger API Documentation</summary>
+  
+    - Common Weakness Enumeration:
+    CWE-200: Exposure of Sensitive Information to an Unauthorized Actor
+
+    - References:
+    https://turingsecure.com/knowledge-base/issues/publicly-available-swagger-api-documentation/
+    https://www.thesharpener.net/should-i-use-swagger-in-production/
+
+    - OWASP Web Top 10:
+    A05:Security Misconfiguration
+
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -451,8 +522,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API4:Lack of Resources & Rate Limiting
+    - OWASP API Top 10 (2023):
+    API10:Unsafe Consumption of APIs
         
 </details>
 
@@ -471,8 +542,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A03:Injection
 
-    - OWASP API Top 10:
-    API8:Injection
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -491,8 +562,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A10:Server-Side Request Forgery
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -510,8 +581,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A03:Injection
 
-    - OWASP API Top 10:
-    API8:Injection
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -533,8 +604,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -552,8 +623,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A04:Insecure Design
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
@@ -573,8 +644,8 @@ During creation of issues, we need to report CWE ID, References for Help, OWASP 
     - OWASP Web Top 10:
     A05:Security Misconfiguration
 
-    - OWASP API Top 10:
-    API7:Security Misconfiguration
+    - OWASP API Top 10 (2023):
+    API8:Security Misconfiguration
         
 </details>
 
